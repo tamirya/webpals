@@ -28,9 +28,10 @@ To Run:
 4. docker-compose exec app php artisan db:seed
 
 ⭐ Without Docker
-1. php artisan migrate
-2. php artisan db:seed 
-3. php -S localhost:8000 -t public
+1. create database with name: webpals
+2. php artisan migrate
+3. php artisan db:seed 
+4. php -S localhost:8000 -t public
 
 To Stop:
 - docker-compose down -v
