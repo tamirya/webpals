@@ -39,6 +39,10 @@ To Stop:
 
 **The PhpMyadmin url: http://192.168.99.100:8080**
 
+PhpMyadmin credentials: 
+- Username: root
+- Password: password
+
 ⭐ Without Docker
 1. edit .env file
     - DB_HOST=localhost
