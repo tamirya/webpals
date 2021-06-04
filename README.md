@@ -10,8 +10,12 @@ To Run:
 1. docker build -t tamirya/react-app .
 2. docker run -d -it  -p 80:80/tcp --name react-app tamirya/react-app:latest
 
+**The app will run on default docker url: http://192.168.99.100**
+
 ⭐ Without Docker
 - npm run start
+
+**The app will run in this url: http://localhost:3000**
 
 To Stop:
 - docker stop [container-id]
