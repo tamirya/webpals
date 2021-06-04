@@ -49,3 +49,5 @@ To Stop:
 3. php artisan migrate
 4. php artisan db:seed 
 5. php -S localhost:8000 -t public
+
+**The server will run on this url: http://localhost:8000**
