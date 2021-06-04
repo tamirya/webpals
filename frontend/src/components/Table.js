@@ -163,6 +163,7 @@ const Table = ({ items }) => {
         (row) => selectedRow.user_id !== row.user_id
       );
       setUsers(usersDeletedArr);
+      setSelectedRow(null);
     }
   };
 
