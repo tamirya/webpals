@@ -28,7 +28,7 @@ To Run:
 4. docker-compose exec app php artisan db:seed
 
 ⭐ Without Docker
-1. configure .env
+1. configure .env file
     - DB_HOST=localhost
     - DB_DATABASE=webpals
     - DB_USERNAME=[username]
