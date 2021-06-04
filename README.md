@@ -27,6 +27,9 @@ To Run:
 3. docker-compose exec app php artisan migrate
 4. docker-compose exec app php artisan db:seed
 
+To Stop:
+- docker-compose down -v
+
 ⭐ Without Docker
 1. configure .env file
     - DB_HOST=localhost
@@ -37,6 +40,3 @@ To Run:
 3. php artisan migrate
 4. php artisan db:seed 
 5. php -S localhost:8000 -t public
-
-To Stop:
-- docker-compose down -v
