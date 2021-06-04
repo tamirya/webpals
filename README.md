@@ -28,9 +28,15 @@ To Run:
 4. docker-compose exec app php artisan db:seed
 
 ⭐ Without Docker
-1. php artisan migrate
-2. php artisan db:seed 
-3. php -S localhost:8000 -t public
+1. configure .env file
+    - DB_HOST=localhost
+    - DB_DATABASE=webpals
+    - DB_USERNAME=[username]
+    - DB_PASSWORD=[password]
+2. create database with name: webpals
+3. php artisan migrate
+4. php artisan db:seed 
+5. php -S localhost:8000 -t public
 
 To Stop:
 - docker-compose down -v
