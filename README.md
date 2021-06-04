@@ -18,7 +18,7 @@ To Stop:
 ⭐ Without Docker
 - npm run start
 
-**The app will run in this url: http://localhost:3000**
+**The app will run on this url: http://localhost:3000**
 
 # Backend- Lumen 8 & Mysql & JWT Authentication:
 1. cd backend
@@ -35,7 +35,7 @@ To Run:
 To Stop:
 - docker-compose down -v
 
-**The app will run in this url: http://192.168.99.100:8000**
+**The server will run on this url: http://192.168.99.100:8000**
 
 **The PhpMyadmin url: http://192.168.99.100:8080**
 
