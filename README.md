@@ -1,6 +1,6 @@
 # Instructions
 -----
-# Frontend- React.js:
+# Frontend- React.js & Redux:
 1. cd frontend
 2. npm install
 
@@ -19,7 +19,7 @@ To Run:
 
 To Stop:
 - docker stop [container-id]
-# Backend- Lumen 8:
+# Backend- Lumen 8 & Mysql:
 1. cd backend
 2. composer install
 
@@ -33,6 +33,10 @@ To Run:
 
 To Stop:
 - docker-compose down -v
+
+**The app will run in this url: http://192.168.99.100:8000**
+
+**The PhpMyadmin url: http://192.168.99.100:8080**
 
 ⭐ Without Docker
 1. configure .env file
