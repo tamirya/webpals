@@ -12,13 +12,14 @@ To Run:
 
 **The app will run on default docker url: http://192.168.99.100**
 
+To Stop:
+- docker stop [container-id]
+
 ⭐ Without Docker
 - npm run start
 
 **The app will run in this url: http://localhost:3000**
 
-To Stop:
-- docker stop [container-id]
 # Backend- Lumen 8 & Mysql & JWT Authentication:
 1. cd backend
 2. composer install
