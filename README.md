@@ -19,7 +19,7 @@ To Run:
 
 To Stop:
 - docker stop [container-id]
-# Backend- Lumen 8 & Mysql:
+# Backend- Lumen 8 & Mysql & JWT Authentication:
 1. cd backend
 2. composer install
 
