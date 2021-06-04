@@ -39,7 +39,7 @@ To Stop:
 **The PhpMyadmin url: http://192.168.99.100:8080**
 
 ⭐ Without Docker
-1. configure .env file
+1. edit .env file
     - DB_HOST=localhost
     - DB_DATABASE=webpals
     - DB_USERNAME=[username]
