@@ -1,6 +1,6 @@
 # Instructions
 -----
-# Frontend:
+# Frontend- React.js:
 1. cd frontend
 2. npm install
 
@@ -19,7 +19,7 @@ To Run:
 
 To Stop:
 - docker stop [container-id]
-# Backend:
+# Backend- Lumen 8:
 1. cd backend
 2. composer install
 
