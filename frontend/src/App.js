@@ -17,7 +17,7 @@ export default function App() {
   const [errorMsg, setErrorMsg] = useState(null);
   const dispatch = useDispatch();
   // setup axios
-  axios.defaults.baseURL = "http://192.168.99.100:8000";
+  axios.defaults.baseURL = "http://localhost:8000";
 
   axios.interceptors.response.use(
     (res) => {
