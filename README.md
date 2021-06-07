@@ -10,7 +10,7 @@ To Run:
 1. docker build -t tamirya/react-app .
 2. docker run -d -it  -p 80:80/tcp --name react-app tamirya/react-app:latest
 
-**The app will run on default docker url: http://192.168.99.100**
+**The app will run on default docker url: http://localhost**
 
 To Stop:
 - docker stop [container-id]
@@ -35,9 +35,9 @@ To Run:
 To Stop:
 - docker-compose down -v
 
-**The server will run on this url: http://192.168.99.100:8000**
+**The server will run on this url: http://localhost:8000**
 
-**The PhpMyadmin url: http://192.168.99.100:8080**
+**The PhpMyadmin url: http://localhost:8080**
 
 ✔️ PhpMyadmin credentials: 
 - Username: root
